@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  
+}
+
+
+
+body {
+    background-image: url(../Assets/Background.png);
+    font-family: 'Work Sans', sans-serif; }
+
+
+
+.card-container {
+    margin: 100px auto;
+    width: 450px;
+    height: 550px;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0px 1px 2px rgba(99,176,240,0.5), 
+                0px 2px 4px rgba(99,176,240,0.5), 
+                0px 4px 8px rgba(99,176,240,0.5), 
+                0px 8px 16px rgba(99,176,240,0.5);
+    
+}
+
+.card-hero {
+    background-color: rgb(48, 84, 233);
+    background-image: url(../Assets/Pattern.png);
+    height: 200px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px 10px 0 0;
+    
+    
+}
+
+.card-hero-title {
+    color: white;
+    width: 70%;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+main {
+    padding: 25px;
+}
+
+.main-title {
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    color: rgb(125, 125, 125);
+    line-height: 1.4rem;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(196, 196, 208);
+    background-color: rgb(245, 247, 258);
+}
+
+input::placeholder {
+    
+    color: rgb(196, 196, 208);
+}
+
+.btn {
+    width: 112px;
+    height: 40px;
+    background-color: rgb(48, 84, 233);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: rgb(93, 121, 233);
+}
+
+
+form {
+    width: 400px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+ .spam {
+    margin-top: 15px;
+    margin-left: 14px;
+    color: rgb(188, 188, 188);
+    font-size:15px;
+
+ }
+
+ .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+ }
+
+ .profile p {
+    line-height: 1.2rem;
+ }
+
+ span{
+    color: rgb(125, 125, 125);
+ }
+
+ .last {
+    margin: 20px;
+    display: inline-block;
+    color: rgb(125, 125, 125);
+    font-size: 15px;
+    line-height: 1.4rem;
+    text-align: center;
+    width: 90%;
+ }
+
+ @media (max-width: 480px) {
+
+
+   .card-container {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+   }
+
+   .card-hero-title {
+    line-height: 1.3em;
+   }
+
+   .card-hero {
+    border-radius: 0;
+   }
+
+
+ }
+
+
